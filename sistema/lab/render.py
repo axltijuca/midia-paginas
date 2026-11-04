@@ -74,6 +74,7 @@ p.body{margin-top:34px;font-size:40px;line-height:1.38;color:#C9CFC7;font-weight
 .ph::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.55) 0%,rgba(0,0,0,.05) 22%,rgba(0,0,0,.15) 42%,var(--bg) 80%)}
 .withphoto .grid,.withphoto .hex,.withphoto .radar,.withphoto .sweep{display:none}
 .withphoto h1{text-shadow:0 4px 30px rgba(0,0,0,.6)}
+.withphoto .kicker{text-shadow:0 2px 12px rgba(0,0,0,.95),0 0 4px rgba(0,0,0,.9)}
 .withphoto.cover h1{font-size:92px}
 .withphoto.news h1{font-size:80px}
 .withphoto .foot{color:#cfcfcf}
