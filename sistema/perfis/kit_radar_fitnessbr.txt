@@ -1,0 +1,41 @@
+KIT INICIAL — @radar_fitnessbr
+
+1) NOME DE USUÁRIO
+radar_fitnessbr
+
+2) NOME (campo "Nome", entra na busca do Instagram)
+Radar Fitness | HYROX • CrossFit
+
+3) FOTO DE PERFIL
+perfil_radar_fitnessbr.png (o radar verde-limão)
+
+4) BIO (escolha uma, todas com menos de 150 caracteres)
+Opção A:
+📡 HYROX, CrossFit e o que acontece no fitness
+🏁 Competições, resultados e agenda
+🎓 Carreira e formação no treino
+Opção B:
+Notícias de HYROX, CrossFit e treino híbrido 📡
+Agenda e resultados das provas no Brasil e no mundo
+Carreira no fitness 👇
+
+5) LINK NA BIO
+O mesmo link do Lab da Hipertrofia (página do Tecnólogo).
+
+6) CATEGORIA (Configurações > Conta profissional)
+"Site de notícias e mídia" (ou "Esportes")
+A conta precisa ser PROFISSIONAL (Criador de conteúdo ou Empresa) para o Metricool publicar sozinho.
+
+7) DESTAQUES (capas 1080x1920 na pasta destaques_radar)
+Ordem sugerida e nome de cada um:
+- HYROX ........ destaque_hyrox.png
+- CROSSFIT ..... destaque_crossfit.png
+- AGENDA ....... destaque_agenda.png
+- RESULTADOS ... destaque_resultados.png
+- CARREIRA ..... destaque_carreira.png
+- FORMAÇÃO ..... destaque_formacao.png
+Dica: o Instagram só deixa criar destaque a partir de um story. Poste cada capa como story, crie o destaque com ela e use a mesma imagem como capa.
+
+8) CONECTAR NO METRICOOL
+No Metricool, marca "radar_fitnessbr" > conectar Instagram > entrar com a conta nova.
+Depois é só me avisar: os 15 posts já estão prontos para agendar.
