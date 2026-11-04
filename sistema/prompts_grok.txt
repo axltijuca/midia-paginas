@@ -1,0 +1,86 @@
+PROMPTS PARA O GROK — fotos das capas
+Formato: vertical 4:5 (ou 3:4). Gere 1 imagem por prompt.
+Quando me devolver, mande junto o código (ex.: LAB 02) ou salve o arquivo com esse nome.
+
+===== LAB DA HIPERTROFIA =====
+[LAB 01]
+Vertical 4:5 photo. Close-up of a lifter's chalked hands tightening a leather lifting belt next to a shaker bottle and a cup of black coffee on a gym bench, dark gritty gym, low-key lighting with warm red rim light, candid documentary sports photography, shot on Sony A7 IV 35mm f/1.8, natural skin texture, film grain, no text, no logos.
+
+[LAB 02]
+Vertical 4:5 photo. Muscular man scooping white powder from a plain unbranded tub into a shaker, chalk dust in the air, dark gritty gym, low-key lighting with warm red rim light, candid documentary sports photography, shot on Sony A7 IV 35mm f/1.8, natural skin texture, film grain, no text, no logos.
+
+[LAB 03]
+Vertical 4:5 photo. Olympic-style swimming pool at night seen from the stands, empty lanes, dramatic arena lights and reflections, Las Vegas atmosphere, candid documentary sports photography, shot on Sony A7 IV 35mm f/1.8, natural skin texture, film grain, no text, no logos.
+
+[LAB 04]
+Vertical 4:5 photo. Athlete drinking espresso from a small cup in a gym before training, steam rising, barbell blurred in background, dark gritty gym, low-key lighting with warm red rim light, candid documentary sports photography, shot on Sony A7 IV 35mm f/1.8, natural skin texture, film grain, no text, no logos.
+
+[LAB 05]
+Vertical 4:5 photo. Medical vials and a syringe on a stainless steel tray beside blood test paperwork, clinical cold light with a red accent, no labels, candid documentary sports photography, shot on Sony A7 IV 35mm f/1.8, natural skin texture, film grain, no text, no logos.
+
+[LAB 07]
+Vertical 4:5 photo. Nurse drawing blood from the arm of a muscular athlete in a clinic, test tubes in a rack, soft clinical light, candid documentary sports photography, shot on Sony A7 IV 35mm f/1.8, natural skin texture, film grain, no text, no logos.
+
+[LAB 08]
+Vertical 4:5 photo. Anti-doping control room: sealed urine sample kit boxes and tamper-proof bottles on a table, official badge lanyard, neutral light, candid documentary sports photography, shot on Sony A7 IV 35mm f/1.8, natural skin texture, film grain, no text, no logos.
+
+[LAB 09]
+Vertical 4:5 photo. Small glass peptide vials and a lab pipette on a dark laboratory bench, scientific glassware, moody red rim light, no labels, candid documentary sports photography, shot on Sony A7 IV 35mm f/1.8, natural skin texture, film grain, no text, no logos.
+
+[LAB 10]
+Vertical 4:5 photo. Bodybuilder posing on a competition stage under bright spotlights, deep tan, dark background with golden stage glow, seen from behind the judges, face not visible, candid documentary sports photography, shot on Sony A7 IV 35mm f/1.8, natural skin texture, film grain, no text, no logos.
+
+[LAB 11]
+Vertical 4:5 photo. Heavy barbell squat in a power rack, athlete at the bottom of the rep, plates loaded, intense moment, dark gritty gym, low-key lighting with warm red rim light, candid documentary sports photography, shot on Sony A7 IV 35mm f/1.8, natural skin texture, film grain, no text, no logos.
+
+[LAB 12]
+Vertical 4:5 photo. Coach with a clipboard watching a bodybuilder train on a cable machine, focused discussion, dark gritty gym, low-key lighting with warm red rim light, candid documentary sports photography, shot on Sony A7 IV 35mm f/1.8, natural skin texture, film grain, no text, no logos.
+
+[LAB 14]
+Vertical 4:5 photo. Coach correcting a lifter's deadlift technique, hand pointing at hip position, educational moment, dark gritty gym, low-key lighting with warm red rim light, candid documentary sports photography, shot on Sony A7 IV 35mm f/1.8, natural skin texture, film grain, no text, no logos.
+
+[LAB 15]
+Vertical 4:5 photo. University sports science lab with a lifter on a force plate, laptop showing graphs, students observing, professional lighting with red accent, candid documentary sports photography, shot on Sony A7 IV 35mm f/1.8, natural skin texture, film grain, no text, no logos.
+
+===== RADAR FITNESS =====
+[RADAR 01]
+Vertical 4:5 photo. Hybrid fitness race inside a huge exhibition hall, athletes pushing heavy sleds on a turf lane, crowd and lights in background, industrial arena, cool lighting with neon lime green accents, candid documentary sports photography, shot on Sony A7 IV 35mm f/1.8, natural skin texture, film grain, no text, no logos.
+
+[RADAR 02]
+Vertical 4:5 photo. Massive indoor fitness race venue being set up, rows of rowing machines and ski ergs, banners without text, wide shot, industrial arena, cool lighting with neon lime green accents, candid documentary sports photography, shot on Sony A7 IV 35mm f/1.8, natural skin texture, film grain, no text, no logos.
+
+[RADAR 03]
+Vertical 4:5 photo. Split scene: athlete doing barbell clean in a functional training box and another running on an indoor track, gritty texture, industrial arena, cool lighting with neon lime green accents, candid documentary sports photography, shot on Sony A7 IV 35mm f/1.8, natural skin texture, film grain, no text, no logos.
+
+[RADAR 04]
+Vertical 4:5 photo. Functional fitness competition in a stadium, athlete lifting a barbell overhead, crowd cheering, stage lights, industrial arena, cool lighting with neon lime green accents, candid documentary sports photography, shot on Sony A7 IV 35mm f/1.8, natural skin texture, film grain, no text, no logos.
+
+[RADAR 05]
+Vertical 4:5 photo. Exhausted first-time racer on hands and knees after wall balls in an indoor race, sweat, determination, industrial arena, cool lighting with neon lime green accents, candid documentary sports photography, shot on Sony A7 IV 35mm f/1.8, natural skin texture, film grain, no text, no logos.
+
+[RADAR 06]
+Vertical 4:5 photo. Athlete in a gym doing kettlebell swings with an assault bike and barbell nearby, sweat and motion blur, industrial arena, cool lighting with neon lime green accents, candid documentary sports photography, shot on Sony A7 IV 35mm f/1.8, natural skin texture, film grain, no text, no logos.
+
+[RADAR 07]
+Vertical 4:5 photo. Runner crossing the finish line of an indoor fitness race with arms raised, confetti, blurred crowd, industrial arena, cool lighting with neon lime green accents, candid documentary sports photography, shot on Sony A7 IV 35mm f/1.8, natural skin texture, film grain, no text, no logos.
+
+[RADAR 08]
+Vertical 4:5 photo. Packed modern gym in Brazil at night, many people training, wide-angle view of rows of machines, industrial arena, cool lighting with neon lime green accents, candid documentary sports photography, shot on Sony A7 IV 35mm f/1.8, natural skin texture, film grain, no text, no logos.
+
+[RADAR 09]
+Vertical 4:5 photo. Coach with a stopwatch shouting encouragement to an athlete on a rowing machine during intervals, industrial arena, cool lighting with neon lime green accents, candid documentary sports photography, shot on Sony A7 IV 35mm f/1.8, natural skin texture, film grain, no text, no logos.
+
+[RADAR 11]
+Vertical 4:5 photo. Fitness professionals at work: physiotherapist assessing a knee, coach programming on a tablet, gym setting, industrial arena, cool lighting with neon lime green accents, candid documentary sports photography, shot on Sony A7 IV 35mm f/1.8, natural skin texture, film grain, no text, no logos.
+
+[RADAR 12]
+Vertical 4:5 photo. Young students in a sports science classroom with exercise physiology charts, one holding a kettlebell, bright lighting, industrial arena, cool lighting with neon lime green accents, candid documentary sports photography, shot on Sony A7 IV 35mm f/1.8, natural skin texture, film grain, no text, no logos.
+
+[RADAR 13]
+Vertical 4:5 photo. Fitness merchandise pop-up store inside an event hall, shelves with plain unbranded shoes and apparel, warm retail lighting, industrial arena, cool lighting with neon lime green accents, candid documentary sports photography, shot on Sony A7 IV 35mm f/1.8, natural skin texture, film grain, no text, no logos.
+
+[RADAR 14]
+Vertical 4:5 photo. Elite performance coach analyzing data on a laptop beside a track while an athlete sprints in the background, industrial arena, cool lighting with neon lime green accents, candid documentary sports photography, shot on Sony A7 IV 35mm f/1.8, natural skin texture, film grain, no text, no logos.
+
+[RADAR 15]
+Vertical 4:5 photo. Strength athlete chalking hands before a heavy lift, university sports lab in background, professional lighting, industrial arena, cool lighting with neon lime green accents, candid documentary sports photography, shot on Sony A7 IV 35mm f/1.8, natural skin texture, film grain, no text, no logos.
