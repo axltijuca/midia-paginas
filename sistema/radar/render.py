@@ -3,7 +3,10 @@ sys.path.insert(0, os.path.dirname(__file__))
 from content import POSTS, HANDLE
 from playwright.sync_api import sync_playwright
 
-OUT = "/home/claude/radar/out"
+HERE = os.path.dirname(os.path.abspath(__file__))
+OUT = os.path.join(HERE, "out")
+FOTOS = os.path.join(HERE, "..", "fotos", "radar")
+import base64
 os.makedirs(OUT, exist_ok=True)
 e = html.escape
 
@@ -59,10 +62,22 @@ p.body{margin-top:34px;font-size:40px;line-height:1.38;color:#C9CFC7;font-weight
 .opt .l{font-size:40px;font-weight:900;color:var(--acc)}
 .opt .t{font-size:62px;font-weight:900;margin-top:16px;letter-spacing:-.02em}
 .opt.b{border-color:var(--ink)} .opt.b .l{color:var(--ink)}
+
+.ph{position:absolute;inset:0;background-size:cover;background-position:center;z-index:0}
+.ph::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.55) 0%,rgba(0,0,0,.05) 22%,rgba(0,0,0,.15) 42%,var(--bg) 80%)}
+.withphoto .grid,.withphoto .hex,.withphoto .radar,.withphoto .sweep{display:none}
+.withphoto h1{text-shadow:0 4px 30px rgba(0,0,0,.6)}
+.withphoto.cover h1{font-size:92px}
+.withphoto.news h1{font-size:80px}
+.withphoto .foot{color:#cfcfcf}
 """
 
-def frame(cls, inner, tag, idx, total, bg=True):
+def frame(cls, inner, tag, idx, total, bg=True, photo=None):
     deco = '<div class="grid"></div><div class="radar"></div><div class="sweep"></div>' if bg else ''
+    if photo:
+        b64 = base64.b64encode(open(photo,'rb').read()).decode()
+        deco = f'<div class="ph" style="background-image:url(data:image/jpeg;base64,{b64})"></div>'
+        cls += " withphoto"
     pg = f"{idx}/{total}" if total > 1 else ""
     return f"""<html><head><meta charset="utf-8"><style>{CSS}</style></head>
 <body class="{cls}">{deco}
@@ -70,7 +85,7 @@ def frame(cls, inner, tag, idx, total, bg=True):
 {inner}
 <div class="foot"><span>{HANDLE}</span><span>{pg}</span></div></body></html>"""
 
-def slide_html(s, tag, idx, total):
+def slide_html(s, tag, idx, total, photo=None):
     k = s["k"]
     if k == "cover":
         inner = f'<div class="wrap"><div class="bar"></div><h1>{e(s["title"])}</h1><div class="sub">{e(s["sub"])}</div></div>'
@@ -91,14 +106,14 @@ def slide_html(s, tag, idx, total):
         return frame("cta", inner, "SEGUE", idx, total, bg=False)
     elif k == "news":
         inner = f'<div class="wrap"><div class="kicker">{e(s["kicker"])}</div><h1>{e(s["title"])}</h1><p class="body">{e(s["body"])}</p></div>'
-        return frame("news", inner, s["tag"], idx, total)
+        return frame("news", inner, s["tag"], idx, total, photo=photo)
     elif k == "poll":
         inner = f'''<div class="wrap"><h1>{e(s["title"])}</h1><div class="opts">
 <div class="opt a"><div class="l">A</div><div class="t">{e(s["a"])}</div></div>
 <div class="opt b"><div class="l">B</div><div class="t">{e(s["b"])}</div></div></div>
 <p class="body" style="margin-top:60px">Comenta A ou B 👇</p></div>'''
         return frame("poll", inner, s["tag"], idx, total)
-    return frame(k, inner, tag, idx, total)
+    return frame(k, inner, tag, idx, total, photo=photo if k == "cover" else None)
 
 only = sys.argv[1:] or None
 with sync_playwright() as p:
@@ -109,7 +124,8 @@ with sync_playwright() as p:
         tag = post["slides"][0].get("tag", "")
         total = len(post["slides"])
         for i, s in enumerate(post["slides"], 1):
-            pg.set_content(slide_html(s, tag, i, total))
+            ph = os.path.join(FOTOS, post['id'] + '.jpg')
+            pg.set_content(slide_html(s, tag, i, total, ph if (i == 1 and os.path.exists(ph)) else None))
             pg.wait_for_timeout(80)
             pg.screenshot(path=f"{OUT}/radar_{post['id']}_{i:02d}.png")
         with open(f"{OUT}/radar_{post['id']}_legenda.txt", "w") as f:
