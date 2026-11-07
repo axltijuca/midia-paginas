@@ -1,0 +1,56 @@
+[
+{
+"name": "1_novo",
+"t": "novo",
+"img": "posts/consultoria/160/01.jpg",
+"title": "Saiu post novo"
+},
+{
+"name": "2_resultado",
+"t": "resultado",
+"img": "posts/consultoria/082/01.jpg",
+"title": "+7 kg em <span class='gold'>5 meses</span>",
+"text": "Ganho de peso com qualidade: dieta ajustada, treino bem distribuído e acompanhamento."
+},
+{
+"name": "3_dica",
+"t": "dica",
+"title": "Pare de comer <span class='gold'>só frango</span>",
+"items": [
+"Varie as proteínas: peixe, carne, ovos, porco",
+"Dieta boa é dieta que você consegue manter",
+"Aderência vale mais que a dieta perfeita"
+]
+},
+{
+"name": "4_bastidor",
+"t": "bastidor",
+"img": "posts/consultoria/397/02.jpg",
+"title": "O trabalho é feito <span class='gold'>no off</span>"
+},
+{
+"name": "5_prova",
+"t": "prova",
+"img": "posts/consultoria/155/02.jpg",
+"title": "Resultado também é <span class='gold'>confiança</span>"
+},
+{
+"name": "6_chamada",
+"t": "chamada",
+"title": "Vagas <span class='gold'>abertas</span>",
+"text": "Treino, dieta e acompanhamento ajustados pelo seu feedback. 100% online, para atletas e não atletas."
+},
+{
+"name": "7_arquivo",
+"t": "arquivo",
+"img": "posts/consultoria/266/01.jpg",
+"year": "Viagens",
+"title": "Outra época, <span class='gold'>mesmo foco</span>"
+},
+{
+"name": "8_pessoal",
+"t": "pessoal",
+"img": "posts/consultoria/266/03.jpg",
+"title": "15 anos vivendo do que <span class='gold'>eu amo</span>"
+}
+]
