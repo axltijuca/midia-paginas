@@ -26,11 +26,11 @@
  },
  {
   "d": "2026-11-09",
-  "h": "12:30",
-  "t": "novo_reel",
-  "title": "Overall <span class='gold'>Classic</span>",
-  "text": "Mais um título na conta. O trampo continua sendo feito.",
-  "name": "1109_1230_novo_reel"
+  "h": "19:30",
+  "t": "novo",
+  "img": "posts/consultoria/160/01.jpg",
+  "title": "Estreia com overall",
+  "name": "1109_1930_novo"
  },
  {
   "d": "2026-11-10",
@@ -48,8 +48,8 @@
   "d": "2026-11-10",
   "h": "19:30",
   "t": "novo",
-  "img": "posts/consultoria/160/01.jpg",
-  "title": "Estreia com overall",
+  "img": "posts/consultoria/266/01.jpg",
+  "title": "Consultoria sem fronteiras",
   "name": "1110_1930_novo"
  },
  {
@@ -64,8 +64,8 @@
   "d": "2026-11-11",
   "h": "19:30",
   "t": "novo",
-  "img": "posts/consultoria/266/01.jpg",
-  "title": "Consultoria sem fronteiras",
+  "img": "posts/consultoria/232/01.jpg",
+  "title": "Primeiro campeonato, três pódios",
   "name": "1111_1930_novo"
  },
  {
@@ -78,11 +78,11 @@
  },
  {
   "d": "2026-11-12",
-  "h": "12:30",
-  "t": "novo_reel",
-  "title": "Back Off <span class='gold'>Set</span>",
-  "text": "4 séries pesadas + 1 série leve até a falha. Veja como aplicar.",
-  "name": "1112_1230_novo_reel"
+  "h": "19:30",
+  "t": "novo",
+  "img": "posts/consultoria/073/01.jpg",
+  "title": "Fome à noite não é compulsão",
+  "name": "1112_1930_novo"
  },
  {
   "d": "2026-11-13",
@@ -96,8 +96,8 @@
   "d": "2026-11-13",
   "h": "19:30",
   "t": "novo",
-  "img": "posts/consultoria/232/01.jpg",
-  "title": "Primeiro campeonato, três pódios",
+  "img": "posts/consultoria/334/01.jpg",
+  "title": "3 realidades, 1 objetivo",
   "name": "1113_1930_novo"
  },
  {
@@ -111,11 +111,11 @@
  },
  {
   "d": "2026-11-14",
-  "h": "19:30",
-  "t": "novo",
-  "img": "posts/consultoria/073/01.jpg",
-  "title": "Fome à noite não é compulsão",
-  "name": "1114_1930_novo"
+  "h": "12:30",
+  "t": "novo_reel",
+  "title": "Atletas e <span class='gold'>não atletas</span>",
+  "text": "Consultoria 100% online, com treino, dieta e acompanhamento.",
+  "name": "1114_1230_novo_reel"
  },
  {
   "d": "2026-11-15",
@@ -127,11 +127,11 @@
  },
  {
   "d": "2026-11-15",
-  "h": "12:30",
-  "t": "novo_reel",
-  "title": "Monster <span class='gold'>Cast</span>",
-  "text": "Participação no Monster Cast. Corte novo no perfil.",
-  "name": "1115_1230_novo_reel"
+  "h": "19:30",
+  "t": "novo",
+  "img": "posts/consultoria/024/01.jpg",
+  "title": "Confie no seu treinador",
+  "name": "1115_1930_novo"
  },
  {
   "d": "2026-11-16",
@@ -146,8 +146,8 @@
   "d": "2026-11-16",
   "h": "19:30",
   "t": "novo",
-  "img": "posts/consultoria/334/01.jpg",
-  "title": "3 realidades, 1 objetivo",
+  "img": "posts/consultoria/357/01.jpg",
+  "title": "Um casal, dois campeões",
   "name": "1116_1930_novo"
  },
  {
@@ -166,25 +166,25 @@
   "d": "2026-11-17",
   "h": "19:30",
   "t": "novo",
-  "img": "posts/consultoria/024/01.jpg",
-  "title": "Confie no seu treinador",
+  "img": "posts/consultoria/260/01.jpg",
+  "title": "Eu rasguei meu peito",
   "name": "1117_1930_novo"
  },
  {
   "d": "2026-11-18",
   "h": "10:00",
   "t": "bastidor",
-  "img": "posts/consultoria/203/01.jpg",
+  "img": "posts/consultoria/203/02.jpg",
   "title": "Autoridade vem <span class='gold'>com o tempo</span>",
   "name": "1118_1000_bastidor"
  },
  {
   "d": "2026-11-18",
-  "h": "12:30",
-  "t": "novo_reel",
-  "title": "Top 1 <span class='gold'>Classic</span>",
-  "text": "Mais um aluno no topo do pódio. O segredo? Assiste lá.",
-  "name": "1118_1230_novo_reel"
+  "h": "19:30",
+  "t": "novo",
+  "img": "posts/consultoria/045/01.jpg",
+  "title": "Overall 3 de 3",
+  "name": "1118_1930_novo"
  },
  {
   "d": "2026-11-19",
@@ -198,8 +198,8 @@
   "d": "2026-11-19",
   "h": "19:30",
   "t": "novo",
-  "img": "posts/consultoria/357/01.jpg",
-  "title": "Um casal, dois campeões",
+  "img": "posts/consultoria/203/01.jpg",
+  "title": "Meu legado são as pessoas",
   "name": "1119_1930_novo"
  },
  {
@@ -214,8 +214,8 @@
   "d": "2026-11-20",
   "h": "19:30",
   "t": "novo",
-  "img": "posts/consultoria/260/01.jpg",
-  "title": "Eu rasguei meu peito",
+  "img": "posts/consultoria/324/01.jpg",
+  "title": "4 anos juntos",
   "name": "1120_1930_novo"
  },
  {
@@ -231,8 +231,8 @@
   "d": "2026-11-21",
   "h": "12:30",
   "t": "novo_reel",
-  "title": "Trabalho <span class='gold'>no OFF</span>",
-  "text": "Bastidores de uma preparação. Quer mais conteúdo assim?",
+  "title": "Um ajuda <span class='gold'>o outro</span>",
+  "text": "Um na estreia, outro com mais de 15 competições. Assiste lá.",
   "name": "1121_1230_novo_reel"
  }
 ]
