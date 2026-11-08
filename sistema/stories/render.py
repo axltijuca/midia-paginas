@@ -23,7 +23,7 @@ body{width:1080px;height:1920px;background:#0E1218;color:#F4F1EA;font-family:'In
 .list{list-style:none;padding:0;margin-top:40px;display:flex;flex-direction:column;gap:30px}
 .list li{font:500 50px/1.3 'Inter';padding-left:54px;position:relative}
 .list li::before{content:"";position:absolute;left:0;top:22px;width:28px;height:4px;background:#C9A45C}
-.film{position:absolute;left:90px;right:90px;top:420px;height:1040px;background:#F4F1EA;padding:28px 28px 120px;transform:rotate(-2.2deg);box-shadow:0 30px 70px rgba(0,0,0,.6)}
+.film{position:absolute;left:90px;right:90px;top:400px;height:960px;background:#F4F1EA;padding:28px 28px 120px;transform:rotate(-2.2deg);box-shadow:0 30px 70px rgba(0,0,0,.6)}
 .film div{width:100%;height:100%;background-size:cover;background-position:center;filter:sepia(.25) contrast(1.05)}
 .film span{position:absolute;bottom:34px;left:0;right:0;text-align:center;font:700 46px 'Barlow Condensed';letter-spacing:.12em;color:#0E1218}
 .arrow{font:800 120px 'Barlow Condensed';color:#C9A45C;line-height:1}
@@ -34,9 +34,10 @@ T={
 'resultado':lambda s:page(f"<div class='bg' style=\"background-image:url('{img(s['img'])}')\"></div><div class='shade'></div><div class='tag'>Resultado</div><div class='big'><h1 class='d'>{s['title']}</h1><p>{s['text']}</p></div>"),
 'dica':lambda s:page(f"<div class='tag'>Dica rápida</div><div class='big' style='top:520px;bottom:auto'><h1 class='d' style='font-size:150px'>{s['title']}</h1><ul class='list'>{''.join('<li>'+x+'</li>' for x in s['items'])}</ul></div>"),
 'bastidor':lambda s:page(f"<div class='bg' style=\"background-image:url('{img(s['img'])}')\"></div><div class='shade'></div><div class='tag'>Bastidores</div><div class='big'><h1 class='d' style='font-size:104px'>{s['title']}</h1></div>"),
-'prova':lambda s:page(f"<div class='tag'>O que os alunos dizem</div><div class='frame' style=\"background-image:url('{img(s['img'])}');background-size:contain;background-repeat:no-repeat;background-color:#161C25\"></div><div class='big' style='bottom:330px'><h1 class='d' style='font-size:84px'>{s['title']}</h1></div>"),
+'prova':lambda s:page(f"<div class='tag'>O que os alunos dizem</div><div style='position:absolute;left:50px;right:50px;top:400px;height:1000px;display:flex;align-items:center;justify-content:center'><img src=\"{img(s['img'])}\" style='width:100%;border-radius:22px;box-shadow:0 30px 80px rgba(0,0,0,.6);outline:3px solid #C9A45C;outline-offset:12px'></div><div class='big' style='bottom:330px'><h1 class='d' style='font-size:96px'>{s['title']}</h1></div>"),
 'chamada':lambda s:page(f"<div class='tag'>Consultoria online</div><div class='big' style='top:620px;bottom:auto'><h1 class='d' style='font-size:220px'>{s['title']}</h1><p>{s['text']}</p><div class='pill'>Me manda CONSULTORIA no direct</div></div>"),
 'arquivo':lambda s:page(f"<div class='tag'>Arquivo TDF</div><div class='film'><div style=\"background-image:url('{img(s['img'])}')\"></div><span>{s['year']}</span></div><div class='big' style='bottom:330px'><h1 class='d' style='font-size:84px'>{s['title']}</h1></div>"),
+'novo_reel':lambda s:page(f"<div class='tag'>Reel novo no perfil</div><div class='big' style='top:560px;bottom:auto'><div class='arrow'>▶</div><h1 class='d' style='font-size:150px;margin-top:30px'>{s['title']}</h1><p>{s['text']}</p><div class='pill'>Toque no perfil e assista</div></div>"),
 'pessoal':lambda s:page(f"<div class='bg' style=\"background-image:url('{img(s['img'])}')\"></div><div class='shade'></div><div class='big'><h1 class='d' style='font-size:96px'>{s['title']}</h1></div>"),
 }
 def render(items,outdir):
